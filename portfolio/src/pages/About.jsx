@@ -1,4 +1,5 @@
 import React from 'react';
+import '../app.css';
 
 function About() {
   return (
@@ -6,8 +7,7 @@ function About() {
       <h2>About Me</h2>
       <img 
         src="path_to_your_avatar.jpg" 
-        alt="Avatar" 
-        style={{ width: '150px', borderRadius: '50%' }} 
+        alt="Avatar"  
       />
       <p>
         Hi, I'm Tim Choe, a future web developer. I am currently in the automotive industry, specializing in off-road vehicles. I am excited to transition into web development. 

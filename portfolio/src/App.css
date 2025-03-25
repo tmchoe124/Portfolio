@@ -1,5 +1,6 @@
-/* Global Styles */
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -7,20 +8,18 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4; /* Light background */
+  background-color: #f4f4f4;
   color: #333;
 }
 
-/* Header Styles */
 header {
   background: #2681dc;
   padding: 1rem;
   text-align: center;
 }
 
-/* Navigation (Inline Tabs) */
 .nav-tabs {
-  display: inline-flex;  /* inline-flex so nav stays inline */
+  display: inline-flex;
   justify-content: center;
   background-color: #f8f8f8;
   border-bottom: 2px solid #ddd;
@@ -48,13 +47,11 @@ header {
   color: #fff;
 }
 
-/* Main Layout */
 main {
   padding: 2rem;
   width: 100%;
 }
 
-/* About Page Styles */
 .about {
   text-align: center;
   width: 100%;
@@ -67,7 +64,6 @@ main {
   margin-bottom: 1rem;
 }
 
-/* Portfolio Page Styles */
 .portfolio {
   width: 100%;
   padding: 2rem;
@@ -93,7 +89,6 @@ main {
   width: 100%;
 }
 
-/* Contact Page Styles */
 .contact {
   width: 100%;
   padding: 2rem;
@@ -101,7 +96,6 @@ main {
 
 .contact form {
   width: 100%;
-  /* Remove max-width so the form uses full available width */
   margin: 0 auto;
 }
 
@@ -139,7 +133,6 @@ main {
   font-size: 0.9rem;
 }
 
-/* Resume Page Styles */
 .resume {
   width: 100%;
   padding: 2rem;
@@ -170,7 +163,6 @@ main {
   margin: 0.5rem 0;
 }
 
-/* Footer Styles */
 footer {
   background-color: #333;
   color: #fff;

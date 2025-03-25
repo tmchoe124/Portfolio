@@ -31,7 +31,6 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you could process or send the form data
     console.log('Form submitted:', formData);
     setFormData(initialState);
     setErrors({});
